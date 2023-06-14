@@ -1,23 +1,27 @@
 # 🐍 Simple DAST Project 🐍
-Este é um projeto de segurança de aplicativos web, em que você pode usar para descobrir vulnerabilidades e testar dinamicamente aplicações. Feito para fins de estudo, o projeto atualmente está incompleto. 
+Este é um projeto de segurança de Aplicações Web, em que você pode usar para descobrir vulnerabilidades e testar dinamicamente as aplicações. Feito para fins de estudo, o projeto atualmente está incompleto e talvez possa enfrentar erros durante a execução. 
 
 ## 🚀 Começando
 
-Essas instruções permitirão que você obtenha uma cópia do projeto em sua máquina local para fins de desenvolvimento e teste.
+Essas instruções permitirão que você obtenha uma cópia do projeto em sua máquina local para fins de desenvolvimento e teste. 
 
 ### 📋 Pré-requisitos
 
 * Python 3.8 ou superior
-* Pacotes necessários para executar ferramentas de linha de comando, como Subfinder, Amass, HttpProbe, Katana, Gau e FFuf.
+* Pacotes necessários para executar ferramentas de linha de comando: Subfinder, Amass, HttpProbe, Katana, Gau, Nuclei e FFuf.
 
 ### 🔧 Instalação
 
 Clone o repositório do GitHub:
 
+```shell
 $ git clone https://github.com/BlackReaperSK/simple_dast/
+```
 
-python dast.py [TARGET]
-Onde `[TARGET]` é o domínio que você deseja explorar.
+```shell
+$ python3 [SCRIPT] [TARGET]
+```
+Onde `[SCRIPT]` é o script que deseja executar, e `[TARGET]` é o domínio que você deseja explorar.
 
 ## 🛠️ Construído com
 
@@ -31,13 +35,9 @@ Onde `[TARGET]` é o domínio que você deseja explorar.
 
 ## ✒️ Autores
 
-* **Felipe Sousa Di Marco** - *Trabalho Inicial* - [BlackReaperSK](https://github.com/BlackReaperSK)
+* **Felipe Souza** - *Inicial Work* - [BlackReaperSK](https://github.com/BlackReaperSK)
 
 
-## 🎁 Expressões de gratidão
-
-* Agradeço a todos que usam esse projeto.
-* Agradeço a todos os desenvolvedores que contribuíram para as ferramentas utilizadas neste projeto.
 
 
 
