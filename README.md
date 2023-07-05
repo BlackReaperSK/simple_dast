@@ -16,7 +16,11 @@
   </a>
 </p>
 
-This is a Web Application Security project that you can use to discover vulnerabilities and dynamically test applications. Made for study purposes, the project is currently incomplete and may encounter errors during execution.
+This is a Web Application Security project that you can use to discover vulnerabilities and dynamically test applications. Automates the entire process of reconnaissance for you. It outperforms the work of subdomain enumeration along with various vulnerability checks and obtaining maximum information about your target.
+
+So, what are you waiting for? Go! Go! Go! :boom:
+
+Made for study purposes, the project is currently incomplete and may encounter errors during execution.
 
 ### 📋 Prerequisites
 
