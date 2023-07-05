@@ -1,39 +1,53 @@
-# 🐍 Simple DAST Project 🐍
-Este é um projeto de segurança de Aplicações Web, em que você pode usar para descobrir vulnerabilidades e testar dinamicamente as aplicações. Feito para fins de estudo, o projeto atualmente está incompleto e talvez possa enfrentar erros durante a execução. 
+<h1 align="center"><b>🚀 A Simple DAST Project </b></h1>
 
-## 🚀 Começando
 
-Essas instruções permitirão que você obtenha uma cópia do projeto em sua máquina local para fins de desenvolvimento e teste. 
+<p align="center">
+  <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">
+      <img src="https://img.shields.io/badge/license-GPL3-_red.svg">
+  </a>
+  <a href="https://twitter.com/BlackReaperSK">
+    <img src="https://img.shields.io/badge/twitter-%40BlackReaperSK-blue">
+  </a>
+    <a href="https://github.com/BlackReaperSK/simple_dast/issues?q=is%3Aissue+is%3Aclosed">
+    <img src="https://img.shields.io/github/issues-closed-raw/BlackReaperSK/simple_dast">
+  </a>
+  <a href="https://github.com/BlackReaperSK/simple_dast/wiki">
+    <img src="https://img.shields.io/badge/doc-wiki-blue.svg">
+  </a>
+</p>
 
-### 📋 Pré-requisitos
+This is a Web Application Security project that you can use to discover vulnerabilities and dynamically test applications. Made for study purposes, the project is currently incomplete and may encounter errors during execution.
 
-* Python 3.8 ou superior
-* Pacotes necessários para executar ferramentas de linha de comando: Subfinder, Amass, HttpProbe, Katana, Gau, Nuclei e FFuf.
+### 📋 Prerequisites
 
-### 🔧 Instalação
+* Python 3.8 or higher
+* Required packages to run command-line tools: Subfinder, Amass, HttpProbe, Katana, Gau, Nuclei, and FFuf.
 
-Clone o repositório do GitHub:
+### 🔧 Installation
+
+Clone the GitHub repository:
 
 ```shell
 $ git clone https://github.com/BlackReaperSK/simple_dast/
 ```
+Choose the DAST script and execute:
 
 ```shell
 $ python3 [SCRIPT] [TARGET]
 ```
-Onde `[SCRIPT]` é o script que deseja executar, e `[TARGET]` é o domínio que você deseja explorar.
+Where `[SCRIPT]` is the script you want to execute, and `[TARGET]` is the domain you want to explore.
 
-## 🛠️ Construído com
+## 🛠️ Built With
 
-* [Python](https://www.python.org/) - Linguagem de programação
-* [Subfinder](https://github.com/projectdiscovery/subfinder) - Ferramenta de descoberta de subdomínios
-* [Amass](https://github.com/OWASP/Amass) - Ferramenta de descoberta de subdomínios
-* [HttpProbe](https://github.com/tomnomnom/httprobe) - Ferramenta para verificar serviços HTTP(S) em um conjunto de subdomínios
-* [Katana](https://github.com/JohnWoodman/katana) - Ferramenta para descobrir páginas web
-* [Gau](https://github.com/lc/gau) - Ferramenta para descobrir páginas web
-* [FFuf](https://github.com/ffuf/ffuf) - Ferramenta para descobrir páginas web
+* [Python](https://www.python.org/) - Programming language
+* [Subfinder](https://github.com/projectdiscovery/subfinder) - Subdomain discovery tool
+* [Amass](https://github.com/OWASP/Amass) - Subdomain discovery tool
+* [HttpProbe](https://github.com/tomnomnom/httprobe) - Tool to check HTTP(S) services on a set of subdomains
+* [Katana](https://github.com/JohnWoodman/katana) - Web page discovery tool
+* [Gau](https://github.com/lc/gau) - Web page discovery tool
+* [FFuf](https://github.com/ffuf/ffuf) - Web page discovery tool
 
-## ✒️ Autores
+## ✒️ Authors
 
 * **Felipe Souza** - *Inicial Work* - [BlackReaperSK](https://github.com/BlackReaperSK)
 
