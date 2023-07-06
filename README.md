@@ -16,11 +16,9 @@
   </a>
 </p>
 
-This is a Web Application Security project that you can use to discover vulnerabilities and dynamically test applications. Automates the entire process of reconnaissance for you. It outperforms the work of subdomain enumeration along with various vulnerability checks and obtaining maximum information about your target.
+This is a Web Application Security project that you can use to discover vulnerabilities and dynamically test applications. Automates the entire process of reconnaissance for you. It outperforms the work of subdomain enumeration along with various vulnerability checks and obtaining maximum information about your target. Made for study purposes, the project is currently incomplete and may encounter errors during execution.
 
-So, what are you waiting for? Go! Go! Go! :boom:
-
-Made for study purposes, the project is currently incomplete and may encounter errors during execution.
+:boom: Unlock full potential of scanning, revolutionizing the way you work and empowering you to achieve greatness effortlessly :boom:
 
 ### 📋 Prerequisites
 
@@ -33,6 +31,7 @@ Clone the GitHub repository:
 
 ```shell
 $ git clone https://github.com/BlackReaperSK/simple_dast/
+$ cd simple_dast
 ```
 Choose the DAST script and execute:
 
