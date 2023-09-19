@@ -10,13 +10,13 @@ def check_tool_installed(tool):
     return shutil.which(tool) is not None
 def install_tool(tool):
     if tool == "httprobe":
-        subprocess.check_call(["go", "get", "-u", "github.com/tomnomnom/httprobe"])
+        subprocess.check_call(["go", "install", "github.com/tomnomnom/httprobe@latest"])
     elif tool == "ffuf":
-        subprocess.check_call(["go", "get", "-u", "github.com/ffuf/ffuf"])
+        subprocess.check_call(["go", "install",  "github.com/ffuf/ffuf@latest"])
     elif tool == "gau":
-        subprocess.check_call(["go", "get", "-u", "github.com/lc/gau/v2/cmd/gau"])
+        subprocess.check_call(["go", "install",  "github.com/lc/gau/v2/cmd/gau@latest"])
     else:
-        subprocess.check_call(["go", "get", "-u", f"github.com/projectdiscovery/{tool}/cmd/{tool}"])
+        subprocess.check_call(["go", "install",  f"github.com/projectdiscovery/{tool}/cmd/{tool}@latest"])
     go_path = os.path.expanduser("~/.go")
     os.environ["GOPATH"] = go_path
     os.environ["PATH"] += os.pathsep + os.path.join(go_path, "bin")
